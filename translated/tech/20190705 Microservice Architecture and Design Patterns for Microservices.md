@@ -63,6 +63,9 @@ Add hearing to the above principles, brings several challenges and issues while 
 
 ### **阻塞模式**
 
+
+
+
 Above three, design patterns that you go through were decomposing applications for Greenfield, but 80% of the work you do is with brownfield applications, which are big, monolithic applications (legacy codebase). The Strangler pattern comes to the rescue or solution. This creates two separate applications that live side by side in the same URI space. Over time, the newly refactored application “strangles” or replaces the original application until finally, you can shut off the monolithic application. The Strangler Application steps are transform, coexist, and eliminate [4]:
 
 * Transform — Create a parallel new site with modern approaches.
